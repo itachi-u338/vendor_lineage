@@ -192,7 +192,7 @@ BYPASS_CHARGE_SUPPORTED ?= false
 HBM_SUPPORTED ?= false
 HBM_NODE ?= /sys/class/backlight/panel0-backlight/hbm_mode
 USE_REALITY_ENGINE ?= false
-USE_ADVANCED_DISPLAY_COLOR ?= false
+USE_ADVANCED_DISPLAY_COLOR ?= true
 
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.battery_bypass_supported=$(BYPASS_CHARGE_SUPPORTED) \
